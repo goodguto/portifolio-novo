@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #555;
+}
+.minha-foto{
+    width: 300px;
+    height: 420px; 
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px 10px 50px 10px;
+    
+
+}
+.textos{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 20px;
+    
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: -6px;
+
+}
+.logo {
+    width: 110px;
+    height: 110px;
+    background-image: url(./logo.png);
+    background-size: contain;
+    margin-left: 130px;
+    background-repeat: no-repeat;
+  }
+.rodape{
+    width: 100%;
+    height: 15%;
+    background-color: whitesmoke;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.btn-bio{
+    font-size: 30px;
+    margin-left: 430px;
+    font-family: "Signika Negative", sans-serif;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    transform: scale(1.0);
+}
+.btn-bio:hover{
+    transition: 1s;
+    transform: scale(1.1);
+
+}
+.btn-sobre{
+    font-size: 30px;
+    margin-left: 630px;
+    font-family: "Signika Negative", sans-serif;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    transform: scale(1.0);
+}
+.btn-sobre:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+.btn-rede{
+    font-size: 30px;
+    margin-left: 830px;
+    font-family: "Signika Negative", sans-serif;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    transform: scale(1.0);
+}
+.btn-rede:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+.btn-conquistas{
+    font-size: 30px;
+    margin-left: 1030px;
+    font-family: "Signika Negative", sans-serif;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    transform: scale(1.0);
+}
+.btn-conquistas:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    
+}
+body{
+    background-color: wheat;
+}
+.olinda {
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/olinda.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+
+}
+.olinda-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 10%;
+    margin-top: -120px;
+    
+}
+
+.jogo{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/rdr.png);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+}
+.jogo-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 10%;
+    margin-top: -120px;
+    
+}
+.animais{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/luna.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}.animais-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 10%;
+    margin-top: -120px;
+    
+}
+.musica{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/musico.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.musica-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 20px;
+    margin-top: 90px;
+}
+.filme{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/about\ time.jpg);
+    background-image: url(./imagens/miranha.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.filme-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 10%;
+    margin-top: -120px;
+    
+}
+.filme-final{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/about\ time.jpg);
+    margin-top: -1px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.fotografi{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/estatua.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.fotografi-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 10%;
+    margin-top: -120px;
+    
+}
+
+.final{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/maluquinho.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.final-texto{
+    font-family: "Signika Negative", sans-serif;
+    margin-left: 10%;
+    margin-top: -120px;
+    
+}
+.final1{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/borboleta.jpg);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.final2{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/cesar.jpg);
+    margin-top: -150px;
+    margin-left: 200px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.final3{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/muro.jpg);
+    margin-top: -150px;
+    margin-left: 380px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.final4{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/jojo.jpg);
+    margin-top: -150px;
+    margin-left: 560px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.final5{
+    width: 150px;
+    height: 150px;
+    background-image: url(./imagens/rua.jpg);
+    margin-top: -150px;
+    margin-left: 740px;
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
